@@ -1,0 +1,20 @@
+[
+    {
+        "id": "123",
+        "model": "Samsung Galaxy S10",
+        "price": "120$",
+        "company": "Samsung"
+    },
+    {
+        "id": "125",
+        "model": "Samsung Galaxy S10+",
+        "price": "150$",
+        "company": "Samsung"
+    },
+    {
+        "id": "456",
+        "model": "Samsung Galaxy S24",
+        "price": 1150,
+        "company": "Samsung"
+    }
+]
