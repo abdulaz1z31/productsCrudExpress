@@ -2,13 +2,13 @@
     {
         "id": "123",
         "model": "Samsung Galaxy S10",
-        "price": "120$",
+        "price": 120,
         "company": "Samsung"
     },
     {
         "id": "125",
         "model": "Samsung Galaxy S10+",
-        "price": "150$",
+        "price": 150,
         "company": "Samsung"
     },
     {
@@ -16,5 +16,221 @@
         "model": "Samsung Galaxy S24 upd",
         "price": 1150,
         "company": "Samsung"
+    },
+    {
+        "id": "789",
+        "model": "Samsung Galaxy A52",
+        "price": 400,
+        "company": "Samsung"
+    },
+    {
+        "id": "101",
+        "model": "Samsung Galaxy S21",
+        "price": 1000,
+        "company": "Samsung"
+    },
+    {
+        "id": "102",
+        "model": "Samsung Galaxy S22",
+        "price": 1100,
+        "company": "Samsung"
+    },
+    {
+        "id": "103",
+        "model": "Samsung Galaxy Z Fold3",
+        "price": 1800,
+        "company": "Samsung"
+    },
+    {
+        "id": "201",
+        "model": "Apple iPhone 12",
+        "price": 900,
+        "company": "Apple"
+    },
+    {
+        "id": "202",
+        "model": "Apple iPhone 13",
+        "price": 1000,
+        "company": "Apple"
+    },
+    {
+        "id": "203",
+        "model": "Apple iPhone 14",
+        "price": 1100,
+        "company": "Apple"
+    },
+    {
+        "id": "204",
+        "model": "Apple iPhone 14 Pro",
+        "price": 1200,
+        "company": "Apple"
+    },
+    {
+        "id": "205",
+        "model": "Apple iPhone 11",
+        "price": 800,
+        "company": "Apple"
+    },
+    {
+        "id": "206",
+        "model": "Apple iPhone 12 Pro Max",
+        "price": 1300,
+        "company": "Apple"
+    },
+    {
+        "id": "301",
+        "model": "Google Pixel 5",
+        "price": 700,
+        "company": "Google"
+    },
+    {
+        "id": "302",
+        "model": "Google Pixel 6",
+        "price": 800,
+        "company": "Google"
+    },
+    {
+        "id": "303",
+        "model": "Google Pixel 6 Pro",
+        "price": 900,
+        "company": "Google"
+    },
+    {
+        "id": "304",
+        "model": "Google Pixel 7",
+        "price": 950,
+        "company": "Google"
+    },
+    {
+        "id": "305",
+        "model": "Google Pixel 7a",
+        "price": 650,
+        "company": "Google"
+    },
+    {
+        "id": "306",
+        "model": "Google Pixel Fold",
+        "price": 1800,
+        "company": "Google"
+    },
+    {
+        "id": "401",
+        "model": "Huawei P40",
+        "price": 600,
+        "company": "Huawei"
+    },
+    {
+        "id": "402",
+        "model": "Huawei Mate 40",
+        "price": 700,
+        "company": "Huawei"
+    },
+    {
+        "id": "403",
+        "model": "Huawei P50",
+        "price": 800,
+        "company": "Huawei"
+    },
+    {
+        "id": "404",
+        "model": "Huawei P50 Pro",
+        "price": 1000,
+        "company": "Huawei"
+    },
+    {
+        "id": "405",
+        "model": "Huawei Mate X2",
+        "price": 2000,
+        "company": "Huawei"
+    },
+    {
+        "id": "406",
+        "model": "Huawei MatePad 11",
+        "price": 400,
+        "company": "Huawei"
+    },
+    {
+        "id": "501",
+        "model": "Samsung Galaxy A72",
+        "price": 450,
+        "company": "Samsung"
+    },
+    {
+        "id": "502",
+        "model": "Samsung Galaxy M32",
+        "price": 250,
+        "company": "Samsung"
+    },
+    {
+        "id": "503",
+        "model": "Samsung Galaxy A32",
+        "price": 300,
+        "company": "Samsung"
+    },
+    {
+        "id": "504",
+        "model": "Samsung Galaxy Z Flip3",
+        "price": 950,
+        "company": "Samsung"
+    },
+    {
+        "id": "601",
+        "model": "Apple iPhone 12 mini",
+        "price": 700,
+        "company": "Apple"
+    },
+    {
+        "id": "602",
+        "model": "Apple iPhone SE (2022)",
+        "price": 600,
+        "company": "Apple"
+    },
+    {
+        "id": "603",
+        "model": "Apple iPhone 14 Plus",
+        "price": 1100,
+        "company": "Apple"
+    },
+    {
+        "id": "701",
+        "model": "Google Pixel 5a",
+        "price": 550,
+        "company": "Google"
+    },
+    {
+        "id": "702",
+        "model": "Google Pixel 4a",
+        "price": 450,
+        "company": "Google"
+    },
+    {
+        "id": "801",
+        "model": "Huawei Mate 30 Pro",
+        "price": 1200,
+        "company": "Huawei"
+    },
+    {
+        "id": "802",
+        "model": "Huawei Nova 9",
+        "price": 500,
+        "company": "Huawei"
+    },
+    {
+        "id": "803",
+        "model": "Huawei P30 Pro",
+        "price": 900,
+        "company": "Huawei"
+    },
+    {
+        "model": "aaa",
+        "price": 1000,
+        "company": "bbb",
+        "id": 5454
+    },
+    {
+        "model": "aaa",
+        "price": 1000,
+        "company": "bbb",
+        "id": 342
     }
 ]

@@ -10,3 +10,4 @@ export const validationProductMidd = (req, res, next) => {
 
   next()
 }
+
