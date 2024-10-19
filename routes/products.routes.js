@@ -1,12 +1,14 @@
 import express from "express";
 import { validationProductMidd } from '../middlewares/index.js';
-import { getAllProducsts, createProducst, getByIdProducst, updateByIdProducst, deleteByIdProducst } from "../controllers/products.controller.js";
+import { getAllProducsts, createProducst, getByIdProducst, updateByIdProducst, deleteByIdProducst, searchPrducts } from "../controllers/products.controller.js";
 
 export const productsRouter = express.Router()
 
 
 //GET ALL
 productsRouter.get("/", getAllProducsts)
+//SEARCH DATA
+productsRouter.get("/search", searchPrducts)
 
 //GET BY ID
 productsRouter.get("/:id", getByIdProducst)
@@ -19,7 +21,6 @@ productsRouter.put("/:id", updateByIdProducst)
 
 //DELETE BY ID
 productsRouter.delete("/:id", deleteByIdProducst)
-
 
 
 

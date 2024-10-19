@@ -11,7 +11,35 @@ export const createProducst = (req, res, next) => {
         next(error)
     }
 }
-
+export const searchPrducts = (req, res, next) => {
+    try {
+        let { limit, page } = req.query
+        if (!limit && !page) {
+            limit = 10
+            page = 1
+        }
+       
+        
+        const {search} = req.query
+        const products = readProducts()
+        const searchedData = products.filter((product) => product["model"].toLowerCase().includes(search.toLowerCase()))
+        const result = paginateProduct(limit, page, searchedData)
+        const {lamp, paginatedProducts} = result
+        if (lamp) {
+            if (paginatedProducts.length != 0) {
+                res.status(200).json(paginatedProducts)
+            } else {
+                res.status(200).send("products not found1")
+            }
+        } else {
+            res.status(400).end("products not found2")
+        }
+    } catch (err) {
+        next(err)
+    }
+   
+   
+}
 export const getAllProducsts = (req, res, next) => {
     try {
         const { limit, page } = req.query
